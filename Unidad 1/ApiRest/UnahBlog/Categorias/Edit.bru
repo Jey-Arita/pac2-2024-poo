@@ -1,0 +1,18 @@
+meta {
+  name: Edit
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{PATH}}/categories/35c449fd-c2c6-4536-b74c-884946969865
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Probando el perro d3",
+      "description": "Esto es programacion por tercera vez"
+    }
+}
